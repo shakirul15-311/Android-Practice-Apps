@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_gravity="center"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/user_login"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome !"
+                android:textSize="30sp"
+                android:gravity="center"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/usr_signin_title"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="  Enter your full name"
+                android:drawableLeft="@drawable/person1"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/usr_phone_nmbr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="  Enter your phone number"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:drawableLeft="@drawable/phone1"
+                android:inputType="number"
+                />
+            <AutoCompleteTextView
+                android:id="@+id/usr_bloodgroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Blood Group"
+                android:singleLine="true"
+                android:imeOptions="actionDone" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <RadioButton
+                    android:id="@+id/gender_male"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:layout_weight="1"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/gender_female"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/gender_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Others"
+                    android:layout_weight="1"/>
+
+            </RadioGroup>
+
+            <CheckBox
+                android:padding="10dp"
+                android:id="@+id/agreement_accept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I accept the terms and cnditions"
+                android:checked="true"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/usr_signup_btn"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:clickable="true"
+                android:background="@drawable/background_gradient"
+                />
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="Already have an account?"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="Sign In"
+                    android:layout_margin="12dp"
+                    android:textColor="@color/colorAccent"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

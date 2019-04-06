@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Doctor Finder</string>
+    <string name="find_doctor">Find Doctor</string>
+    <string name="test_find">Test Find</string>
+    <string name="profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_doctor">Search Doctor</string>
+    <string name="heart">Heart</string>
+    <string name="skin_health"><![CDATA[Skin & health]]></string>
+    <string name="dental_care">Dental Care</string>
+    <string name="general_doctor">General Doctor</string>
+    <string name="women_health">Women Health</string>
+    <string name="child_specialist">Child Specialist</string>
+    <string name="ear_nose"><![CDATA[Ear & Nose]]></string>
+    <string name="eye_specialist">Eye Specialist</string>
+    <string name="sex_specialist">Sex Specialist</string>
+    <string name="bone_joint"><![CDATA[Bone & Joint]]></string>
+    <string name="diabetes">Diabetes</string>
+    <string name="cancer">Cancer</string>
+    <string name="kidney_and">Kidney And</string>
+    <string name="urinary_issue">Urinary Issue</string>
+    <string name="general_surgery">General Surgery</string>
+    <string name="brain_nerves"><![CDATA[Brain & Nerves]]></string>
+    <string name="lungs_breathing"><![CDATA[Lungs & Breathing]]></string>
+    <string name="mental_wellness">Mental Wellness</string>
+    <string name="digestive_issue">Digestive Issue</string>
+    <string name="psychologist">Psychologist</string>
+    <string name="physiotherapist">Physiotherapist</string>
+    <string name="homeopathy">Homeopathy</string>
+    <string name="ayurveda">Ayurveda</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="usr_signup_title">Signup by entering the details below </string>
+    <string name="usr_signin_title">Signin by entering the details below </string>
+
+</resources>
