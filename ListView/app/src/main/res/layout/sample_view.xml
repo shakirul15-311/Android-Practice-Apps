@@ -3,12 +3,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
 <TextView
     android:layout_width="match_parent"
-    android:layout_height="60dp"
+    android:layout_height="50dp"
     android:text="Hello There"
     android:gravity="center_vertical"
-    android:id="@+id/textView"
+    android:id="@+id/textViewID"
     android:textSize="20sp"
     android:padding="10dp"
 
