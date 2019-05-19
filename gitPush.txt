@@ -1,5 +1,15 @@
 push an existing repository from the command line:
 
-git remote add origin https://github.com/shakirul15-311/Android-Practice-Apps.git
+git clone https://gitlab.com/nerdcastleltd/doctor-finder-android-user.git
+
+git remote add origin https://gitlab.com/nerdcastleltd/doctor-finder-android-user.git
 
 git push -u origin master
+_____________________________________
+
+$ git clone $URL
+$ cd $PROJECT_NAME
+$ git reset --hard $SHA1
+To again go back to the most recent commit
+
+$ git pull

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OTP SignIn By Facebook</string>
+
+    <string name="app_id">268950970720330</string>
+
+    <string name="account_kit_client_token">37fcfed45ce04bd8a14d458c2f799528</string>
+    <string name="ak_login_protocol_scheme">ak37fcfed45ce04bd8a14d458c2f799528</string>
+
+</resources>
